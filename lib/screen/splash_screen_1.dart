@@ -24,6 +24,21 @@ class MySplashScreen extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20,),
+            Text("Welcome",
+              style: TextStyle(
+                fontSize: 22.0,
+                fontWeight: FontWeight.bold
+              ),
+            ),
+            SizedBox(height: 2,),
+            Text("Welcome bos\n dont fomo and dont be people people ",
+            textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 14.0,
+                color: Colors.green
+              ),
+            ),
           ],
         ),
       ),
