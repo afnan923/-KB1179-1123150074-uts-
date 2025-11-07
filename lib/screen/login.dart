@@ -5,6 +5,31 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: SingleChildScrollView(
+          child: Container(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(
+              children: [
+                const SizedBox(height: 5),
+                const Icon(Icons.qr_code_scanner_sharp,
+                    size: 60, color: Colors.blueGrey),
+                const SizedBox(height: 10),
+                const Text(
+                  "Selamat Datang",
+                  style: TextStyle(fontSize: 30.0, color: Colors.blue),
+                ),
+                const SizedBox(height: 5),
+                const Text(
+                  "Silahkan Login untuk melanjutkan",
+                  style: TextStyle(fontSize: 16.0, color: Colors.green),
+                ),
+              ]
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
