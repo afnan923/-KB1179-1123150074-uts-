@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: "NIM = 1123150074, Afnan Dani Alaudin",
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.amberAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
       ),
       debugShowCheckedModeBanner: false,
       home: MySplashScreen(),
