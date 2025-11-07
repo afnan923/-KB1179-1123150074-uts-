@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 
-class MySplashScreen extends StatelessWidget {
-  const MySplashScreen({super.key});
+class MySplashScreen3 extends StatelessWidget {
+  const MySplashScreen3 ({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,13 +19,13 @@ class MySplashScreen extends StatelessWidget {
                 color: Colors.green,
                 shape: BoxShape.circle,
                 image: DecorationImage(image: 
-                AssetImage("assets/images/1.jpg"),
+                AssetImage("assets/images/3.jpg"),
                 fit: BoxFit.cover
                 ),
               ),
             ),
             SizedBox(height: 20,),
-            Text("Welcome",
+            Text("Welcome 3",
               style: TextStyle(
                 fontSize: 22.0,
                 fontWeight: FontWeight.bold
@@ -47,7 +47,7 @@ class MySplashScreen extends StatelessWidget {
               height: 10,
               width: 10,
               decoration: BoxDecoration(
-                color: Colors.green,
+                color: Colors.green[100]!,
                 shape: BoxShape.circle,
                 ),
               ),
@@ -65,7 +65,7 @@ class MySplashScreen extends StatelessWidget {
               height: 10,
               width: 10,
               decoration: BoxDecoration(
-                color: Colors.green[100]!,
+                color: Colors.green,
                 shape: BoxShape.circle,
                 ),
               ),
